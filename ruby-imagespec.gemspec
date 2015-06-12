@@ -3,15 +3,15 @@
 Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.required_ruby_version = '>= 1.9.1'
-  s.required_rubygems_version = ">= 1.3.6"
+  s.required_rubygems_version = '>= 1.3.6'
 
-  s.name        = "ruby-imagespec"
-  s.summary     = "Image/Flash extract width/height dimensions extractor"
-  s.version     = "0.4.0"
+  s.name        = 'ruby-imagespec'
+  s.summary     = 'Image/Flash extract width/height dimensions extractor'
+  s.version     = '0.3.1'
 
-  s.authors     = ["Brandon Anderson", "Michael Sheakoski", "Mike Boone", "Dimitrij Denissenko"]
-  s.email       = "dimitrij@blacksquaremedia.com"
-  s.homepage    = "http://github.com/dim/ruby-imagespec"
+  s.authors     = ['Brandon Anderson', 'Michael Sheakoski', 'Mike Boone', 'Dimitrij Denissenko']
+  s.email       = 'dimitrij@blacksquaremedia.com'
+  s.homepage    = 'http://github.com/dim/ruby-imagespec'
 
   s.require_path = 'lib'
   s.files        = Dir['README', 'init.rb', 'lib/**/*']
@@ -19,4 +19,3 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rake'
   s.add_development_dependency 'test-unit'
 end
-
